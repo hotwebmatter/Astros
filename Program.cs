@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**
+ * ######################################################
+ * ##    Programming Assignment #9                     ##
+ * ##    Developer: Matthew Obert                      ##
+ * ##    Date Submitted: November 03 2019              ##
+ * ##    Purpose: Use sentinel loops with prime reads  ##
+ * ######################################################
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
