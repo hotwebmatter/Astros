@@ -83,7 +83,7 @@ namespace Astros
             // ReadIncome() method above and they should be combined.
             // The only difference necessary is in the input dialog,
             // where the string 'income' or 'expense' could be passed
-            // as an argument. 
+            // as an argument.
             // I made them separate because the problem specification
             // clearly directs me to do so.
             string inputValue;
