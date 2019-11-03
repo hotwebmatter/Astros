@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using static System.Console;
 // MessageBox did not work on my system:
 // Visual Studio 2019 Reference Manager did not include Framework
-// using System.Windows.Forms;
+using System.Windows.Forms;
 
 namespace Astros
 {
@@ -45,17 +45,19 @@ namespace Astros
 
             if (incomeTotal > expenseTotal)
             {
-                WriteLine("PROFIT\n");
-                WriteLine("Astros made a profit!");
+                // WriteLine("PROFIT\n");
+                // WriteLine("Astros made a profit!");
+                MessageBox.Show("Astros made a profit!", "Profit");
             }
             else if (expenseTotal > incomeTotal)
             {
-                WriteLine("LOSS\n");
-                WriteLine("Astros had a loss.");
+                // WriteLine("LOSS\n");
+                // WriteLine("Astros had a loss.");
+                MessageBox.Show("Astros had a loss.", "Loss");
             }
             else
             {
-                WriteLine("Astros broke even.");
+                // WriteLine("Astros broke even.");
             }
             Read();
         }
